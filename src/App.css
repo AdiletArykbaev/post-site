@@ -1,0 +1,14 @@
+.app__wrapper{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.App{
+  margin:  0 auto;
+}
+a{
+  text-decoration: none;
+
+}
+li{
+  list-style-type: none;
+}

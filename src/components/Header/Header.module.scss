@@ -1,0 +1,35 @@
+.header__wrapper{
+    background-color: #fff;
+    height: 90px;
+    z-index: 10;
+    .header{
+        display: flex;
+        padding: 2% 0 ;
+       
+        .header__logo {
+            img{
+                height: 50px;        
+
+            }
+        }
+        .header__navbar{
+            margin-left: 15%;
+            width: 100%;
+            padding: 1% 0 ;
+            a{
+                padding: 2%; 
+                font-size: .8em;
+                color: rgba(102,102,102,0.85);
+                font-weight: 700;
+                &.active  {
+                    color: #Fff;
+                    background: #50b5ff;
+    
+                }
+            
+            }
+             
+          
+        }
+    }
+}
